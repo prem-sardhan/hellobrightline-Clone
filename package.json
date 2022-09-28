@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.10",
+    "chakra-color-picker": "^0.0.6"
+  }
+}

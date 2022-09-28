@@ -1,0 +1,93 @@
+.div-1{
+    
+    border: 1px solid red;
+    
+    width: 98%;
+    height: 230px;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    background-color: rgb(255,216,93);
+}
+.div-1>div:nth-child(1){
+    border: 1px solid rgb(55, 0, 255);
+    height: 100%;
+    width: 70%;
+}
+.div-1>div:nth-child(2){
+    border: 1px solid rgb(55, 0, 255);
+    height: 100%;
+    width: 30%;
+}
+.div-1a, .div-1b{
+    display: flex;
+    margin: auto;
+   
+
+}
+.div-1a>div{
+    border: 1px solid black;
+    margin: auto;
+    height: 100%;
+    width: 20%;
+
+}
+.div-1b>div{
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+/* about------////-----------////-----------////ABOUT-----////------/// */
+.show-div-1{
+   font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.hidden-div-1 {
+    color: rgb(36, 37, 41);
+    margin-left: 40px;
+    width: 90%;
+    letter-spacing: 0.3px;
+    display: none;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.hidden-div-1:hover{
+    cursor: pointer;
+    color: rgb(38,126,107);
+}
+
+
+.div-about {
+    position: relative;
+    margin-top: 10px;
+}
+
+.div-about>h3:hover {
+    cursor: pointer;
+    color: rgb(38,126,107);
+}
+
+.div-about:hover .hidden-div-1 {
+    display: block;
+}
+/* chakra in use---- */
+.elements{
+    color: rgb(49, 129, 124);
+    width: 100%;
+    font-size: 15px;
+}
+.elements:hover{
+    cursor: pointer;
+    color: rgb(27, 75, 72); ;
+}
+.homeimage{
+    
+    margin-top: 10px;
+}
+
+
+
+
+
