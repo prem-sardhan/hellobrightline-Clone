@@ -1,0 +1,137 @@
+.land1{
+    height: 600px;
+    width: 98%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+.land1>div:nth-child(1){
+    width: 60%;
+    border: 1px solid red;
+    margin-top: 0;
+}
+.land1>div:nth-child(2){
+    width: 40%;
+    border: 1px solid red;
+}
+.image-1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.content{
+   
+    width: 100%;
+    text-align: center;
+   margin-top: 50px;
+   color: black;
+   flex-direction: column;
+   align-items: flex-start;
+   font-family: sans-serif;
+   
+    
+}
+.content h3{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 80%;
+   text-align: start;
+   margin-left: 50px;
+   margin-top: 90px;
+   font-family: sans-serif;
+   font-weight: 100;
+   
+    
+}
+.title{
+    margin-left: 30px;
+   
+    font-size: 40px;
+    letter-spacing: normal;
+    width: 100%;
+    line-height: 80px;
+    font-family: sans-serif;
+    height: 150px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.allbtn{
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    cursor: pointer;
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    border: 2px solid black;
+    color: black
+    
+}
+.allbtn:hover{
+   
+    background-color: rgb(38,126,107);
+    background-position: right;
+}
+.slider{
+    color:rgb(38,126,107);
+    margin-right: 40px;
+  
+   box-sizing: border-box;
+   animation: slider 4s linear infinite;
+   font-size: 45px;
+   
+}
+@keyframes slider{
+    0%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: 0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+}
+/* land-------------2-------------------LAND--------------2------------LAND */
+
+.land2{
+    height: 150px;
+    width: 98%;
+    margin: auto;
+    border: 1px solid red;
+   
+   
+    margin-top: 70px;
+}
+.land2>h2{
+    
+    color: rgb(44,51,63);
+    font-family:Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.land2>h3{
+    margin-left: 150px;
+    text-align: center;
+   
+    margin-top: 20px;
+    width: 80%;
+    font-family: sans-serif;
+    
+
+}
+     
+    
+

@@ -3,7 +3,7 @@
     border: 1px solid red;
     
     width: 98%;
-    height: 230px;
+    height: 150px;
     display: flex;
     margin: auto;
     margin-top: 8px;
@@ -85,6 +85,18 @@
 .homeimage{
     
     margin-top: 10px;
+}
+.topdiv{
+    width: 98%;
+    height: 50px;
+    border: 1px solid black;
+}
+/* login button------------------------------------- */
+.loginbtn:hover{
+    cursor: pointer;
+    background-color:rgb(27, 75, 72) ;
+    
+
 }
 
 
