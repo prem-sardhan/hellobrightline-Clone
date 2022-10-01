@@ -6,6 +6,9 @@ import Family from './Family'
 import Login from './Login'
 import Home from './Home'
 import About from './About.jsx'
+import Signup from './Signup'
+
+
 
 
 const AllRoutes = () => {
@@ -18,6 +21,7 @@ const AllRoutes = () => {
         <Route path='/Employ' element={<Employ/>}></Route>
         <Route path='/Family' element={<Family/>}></Route>
         <Route path='/Login' element={<Login/>}></Route>
+        <Route path='/Signup' element={<Signup/>}></Route>
 
 
 

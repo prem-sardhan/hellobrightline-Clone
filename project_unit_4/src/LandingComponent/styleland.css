@@ -74,17 +74,26 @@
    
     letter-spacing: 1px;
     border-radius: 19px;
-    border: 2px solid black;
-    color: black
+    /* border: 2px solid black; */
+    /* color: black */
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
     
 }
 .allbtn:hover{
    
-    background-color: rgb(38,126,107);
+    background-color: rgb(49, 129, 124);
     background-position: right;
+    color: white;
 }
 .slider{
-    color:rgb(38,126,107);
+    color: rgb(49, 129, 124);
     margin-right: 40px;
   
    box-sizing: border-box;
@@ -132,6 +141,192 @@
     
 
 }
+/* LAND----------------3--------- */
+.land3{
+    height: 600px;
+    width: 98%;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+}
+.land3 div{
+    border: 1px solid red;
+    height: 100%;
+    width: 50%;
+}
+.land3image{
+    width: 100%;
+    height: 100%;
+
+}
+.land3content>h3{
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    text-align: start;
+   
+    
+    
+    width: 80%;
+    margin-left: 90px;
+    letter-spacing: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 150px;
+    
+  
+   
+}
+.land3image2{
+    text-align: center;
+    margin-left: 80px;
+    
+
+}
+.allbtn1{
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+    margin-left: 100px;
+   
+   
+    font-size: 16px;
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+   
+  
+   
+    
+    
+}
+.allbtn1:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+/* LAND----------4  LAND-------------------4   VIDEO */
+
+.videoid{
+    height: 1100px;
+    width: 98%;
+    background-color: rgb(222,235,233);
+    margin: auto;
+    border: 1px solid red
+    
+}
+.video{
+    width: 90%;
+    height: 80%;
+}
+.videoid>h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.videoid>h1{
+    text-align: center;
+   
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2rem;
+
+}
+.land4{
+    height: 250px;
+    width: 98%;
+    margin: auto;
+    border: 1px solid black;
+}
+.land4>h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 10x;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.land4>h1{
+    text-align: center;
+   
+    /* font-size: 10x; */
+    /* font-weight: bold; */
+    
+
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 1.2857;
+    margin-top: 10px;
+
+}
+.land4>p{
+    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 7px;
+}
+/* LAND==================5 */
+.land5{
+    height: 600px;
+    width: 98%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+.land5>div:nth-child(1){
+    width: 45%;
+    border: 1px solid red;
+    margin-top: 0;
+}
+.land5>div:nth-child(2){
+    width: 55%;
+    border: 1px solid red;
+}
+.land5image{
+   
+    margin-left: 130px;
+   
+}
+.land5image>p{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 80%;
+}
+.son{
+    height: 100%;
+    width: 100%;
+}
+/* MIDDLE------------- */
+.middle{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857
+
+}
+.middlep{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
      
     
 

@@ -7,6 +7,7 @@ import Family from "./Family";
 import Careers from "./Careers";
 import Login from "./Login";
 import Home from "./Home";
+import Signup from "./Signup";
 
 // import { unstable_HistoryRouter } from "react-router-dom";
 import { Stack, Container, Flex, Spacer, Button } from "@chakra-ui/react";
@@ -20,14 +21,14 @@ const handlClick=()=>{
 }
 
 const Navbar = () => {
-  const links = [
-    { path: "/", title: "Home" },
-    { path: "/Family", title: "Family" },
-    { path: "/Login", title: "Login" },
-    { path: "/Employ", title: "Employ" },
-    { path: "/Careers", title: "Careers" },
-    { path: "/About", title: "About" },
-  ];
+  // const links = [
+  //   { path: "/", title: "Home" },
+  //   { path: "/Family", title: "Family" },
+  //   { path: "/Login", title: "Login" },
+  //   { path: "/Employ", title: "Employ" },
+  //   { path: "/Careers", title: "Careers" },
+  //   { path: "/About", title: "About" },
+  // ];
 
  
 
@@ -59,13 +60,13 @@ const Navbar = () => {
       <div className="div-1b">
         <div>
           
-         <Link to="/Login"> <Button className="loginbtn" border="solid" color="black" colorScheme="none" mt="18px" ml="60px" onClick={handlClick} borderRadius="30px">
+         <Link to="/Login"> <Button className="loginbtn" border="solid" color="black" colorScheme="none" mt="18px" ml="60px" borderRadius="30px">
               Log in
             </Button></Link>
-        
+         
         </div>
 
-        <div><Link to="/Login"> <Button className="loginbtn" border="solid" color="black" colorScheme="none" mt="18px" ml="60px" onClick={handlClick} borderRadius="30px">
+        <div><Link to="/Signup"> <Button className="loginbtn" border="solid" color="black" colorScheme="none" mt="18px" ml="60px" borderRadius="30px">
              Sign Up
             </Button></Link></div>
       </div>

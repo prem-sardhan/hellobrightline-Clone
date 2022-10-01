@@ -11,11 +11,19 @@ import {
     Heading,
     Text,
     useColorModeValue,
+  
   } from '@chakra-ui/react';
+   
+    
+    
+   
   import AllRoutes from './AllRoutes';
   import Home from './Home';
+
   
-  export default function Login() {
+ 
+  
+  export default function Signup() {
     return (
       <Flex
         minH={'100vh'}
@@ -24,10 +32,13 @@ import {
         bg={useColorModeValue('gray.50', 'gray.800')}>
         <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
           <Stack align={'center'}>
-            <Heading fontSize={'4xl'}>Login in to your account</Heading>
+            <Heading fontSize={'4xl'}>Access Denied...! </Heading>
             <Text fontSize={'lg'} color={'gray.600'}>
-            Welcome to Brightline <Link to="/" color={'blue.400'}>features</Link> ✌️
+            We are not yet accepting registrations from your location.<Link to="/" color={'blue.400'}>Happy to see you</Link> ✌️
             </Text>
+           
+
+   
           </Stack>
           <Box
             rounded={'lg'}
@@ -43,23 +54,7 @@ import {
                 <FormLabel>Password</FormLabel>
                 <Input type="password" />
               </FormControl>
-              <Stack spacing={10}>
-                <Stack
-                  direction={{ base: 'column', sm: 'row' }}
-                  align={'start'}
-                  justify={'space-between'}>
-                  <Checkbox>Remember me</Checkbox>
-                  <Link color={'blue.400'}>Forgot password?</Link>
-                </Stack>
-                <Button
-                  bg={'blue.400'}
-                  color={'white'}
-                  _hover={{
-                    bg: 'blue.500',
-                  }}>
-                  Sign in
-                </Button>
-              </Stack>
+              
             </Stack>
           </Box>
         </Stack>

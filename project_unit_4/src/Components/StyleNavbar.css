@@ -55,7 +55,7 @@
 }
 .hidden-div-1:hover{
     cursor: pointer;
-    color: rgb(38,126,107);
+    color:rgb(56,161,105);
 }
 
 
@@ -66,7 +66,7 @@
 
 .div-about>h3:hover {
     cursor: pointer;
-    color: rgb(38,126,107);
+    color: rgb(56,161,105);
 }
 
 .div-about:hover .hidden-div-1 {
@@ -74,13 +74,13 @@
 }
 /* chakra in use---- */
 .elements{
-    color: rgb(49, 129, 124);
+    color: rgb(56,161,105);
     width: 100%;
     font-size: 15px;
 }
 .elements:hover{
     cursor: pointer;
-    color: rgb(27, 75, 72); ;
+    color: rgb(56,161,105) ;
 }
 .homeimage{
     
@@ -94,7 +94,7 @@
 /* login button------------------------------------- */
 .loginbtn:hover{
     cursor: pointer;
-    background-color:rgb(27, 75, 72) ;
+    background-color: rgb(56,161,105) ;
     
 
 }
