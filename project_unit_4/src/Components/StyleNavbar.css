@@ -1,0 +1,104 @@
+.div-1{
+    
+   
+    
+    width: 98%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    background-color: rgb(255,216,93);
+}
+.div-1>div:nth-child(1){
+   
+    height: 100%;
+    width: 70%;
+}
+.div-1>div:nth-child(2){ 
+    height: 100%;
+    width: 30%;
+}
+.div-1a, .div-1b{
+    display: flex;
+    margin: auto;
+   
+
+}
+.div-1a>div{
+   
+    margin: auto;
+    height: 100%;
+    width: 20%;
+
+}
+.div-1b>div{
+   
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+/* about------////-----------////-----------////ABOUT-----////------/// */
+.show-div-1{
+   font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.hidden-div-1 {
+    color: rgb(36, 37, 41);
+    margin-left: 40px;
+    width: 90%;
+    letter-spacing: 0.3px;
+    display: none;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.hidden-div-1:hover{
+    cursor: pointer;
+    color:rgb(56,161,105);
+}
+
+
+.div-about {
+    position: relative;
+    margin-top: 10px;
+}
+
+.div-about>h3:hover {
+    cursor: pointer;
+    color: rgb(56,161,105);
+}
+
+.div-about:hover .hidden-div-1 {
+    display: block;
+}
+/* chakra in use---- */
+.elements{
+    color: rgb(56,161,105);
+    width: 100%;
+    font-size: 15px;
+}
+.elements:hover{
+    cursor: pointer;
+    color: rgb(56,161,105) ;
+}
+.homeimage{
+    
+    margin-top: 10px;
+}
+.topdiv{
+    width: 98%;
+    height: 50px;
+   
+}
+/* login button------------------------------------- */
+.loginbtn:hover{
+    cursor: pointer;
+    background-color: rgb(56,161,105) ;
+    
+
+}
+
+
+
+
+

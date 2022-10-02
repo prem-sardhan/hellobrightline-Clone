@@ -1,0 +1,584 @@
+.land1{
+    height: 600px;
+    width: 98%;
+
+    margin: auto;
+    display: flex;
+}
+.land1>div:nth-child(1){
+    width: 60%;
+
+    margin-top: 0;
+}
+.land1>div:nth-child(2){
+    width: 40%;
+
+}
+.image-1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.content{
+   
+    width: 100%;
+    text-align: center;
+   margin-top: 50px;
+   color: black;
+   flex-direction: column;
+   align-items: flex-start;
+   font-family: sans-serif;
+   
+    
+}
+.content h3{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 80%;
+   text-align: start;
+   margin-left: 50px;
+   margin-top: 90px;
+   font-family: sans-serif;
+   font-weight: 100;
+   
+    
+}
+.title{
+    margin-left: 30px;
+   
+    font-size: 40px;
+    letter-spacing: normal;
+    width: 100%;
+    line-height: 80px;
+    font-family: sans-serif;
+    height: 150px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.allbtn{
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    cursor: pointer;
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    /* border: 2px solid black; */
+    /* color: black */
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+    
+}
+.allbtn:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+.slider{
+    color: rgb(49, 129, 124);
+    margin-right: 40px;
+  
+   box-sizing: border-box;
+   animation: slider 4s linear infinite;
+   font-size: 45px;
+   
+}
+@keyframes slider{
+    0%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: 0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+}
+/* land-------------2-------------------LAND--------------2------------LAND */
+
+.land2{
+    height: 150px;
+    width: 98%;
+    margin: auto;
+   
+   
+   
+    margin-top: 70px;
+}
+.land2>h2{
+    
+    color: rgb(44,51,63);
+    font-family:Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.land2>h3{
+    margin-left: 150px;
+    text-align: center;
+   
+    margin-top: 20px;
+    width: 79%;
+    font-family: sans-serif;
+    
+
+}
+/* LAND----------------3--------- */
+.land3{
+    height: 600px;
+    width: 98%;
+   
+    margin: auto;
+    display: flex;
+}
+.land3 div{
+   
+    height: 100%;
+    width: 50%;
+}
+.land3image{
+    width: 100%;
+    height: 100%;
+
+}
+.land3content>h3{
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    text-align: start;
+   
+    
+    
+    width: 80%;
+    margin-left: 90px;
+    letter-spacing: normal;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 150px;
+    
+  
+   
+}
+.land3image2{
+    text-align: center;
+    margin-left: 80px;
+    
+
+}
+.allbtn1{
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+    margin-left: 100px;
+   
+   
+    font-size: 16px;
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+   
+  
+   
+    
+    
+}
+.allbtn1:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+/* LAND----------4  LAND-------------------4   VIDEO */
+
+.videoid{
+    height: 1100px;
+    width: 98%;
+    background-color: rgb(222,235,233);
+    margin: auto;
+   
+    
+}
+.video{
+    width: 90%;
+    height: 80%;
+}
+.videoid>h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.videoid>h1{
+    text-align: center;
+   
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2rem;
+
+}
+.land4{
+    height: 250px;
+    width: 98%;
+    margin: auto;
+   
+}
+.land4>h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 10x;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.land4>h1{
+    text-align: center;
+   
+    /* font-size: 10x; */
+    /* font-weight: bold; */
+    
+
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 1.2857;
+    margin-top: 10px;
+
+}
+.land4>p{
+    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 7px;
+}
+/* LAND==================5 */
+.land5{
+    height: 600px;
+    width: 98%;
+   
+    margin: auto;
+    display: flex;
+}
+.land5>div:nth-child(1){
+    width: 45%;
+   
+    margin-top: 0;
+}
+.land5>div:nth-child(2){
+    width: 55%;
+   
+}
+.land5image{
+   
+    margin-left: 130px;
+   
+}
+.land5image>p{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 80%;
+}
+.son{
+    height: 100%;
+    width: 100%;
+}
+/* MIDDLE------------- */
+.middle{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857
+
+}
+.middlep{
+    text-align: center;
+    margin-top: 5px;
+}
+/* LAND=================6=================LAND===============6 */
+.land6{
+    height: 600px;
+    width: 98%;
+    margin: auto;
+   
+    display: flex;
+    margin-top: 20px;
+}
+.land6>div:nth-child(1){
+    width: 50%;
+    height: 100%;
+  
+}
+.land6image2{
+   
+    margin-top: 80px;
+}
+.land6image1{
+    height: 100%;
+    
+}
+.land7{
+    height: 600px;
+    width: 98%;
+    margin: auto;
+  
+    display: flex;
+    margin-top: 20px;
+}
+.land7>div:nth-child(1){
+    width: 50%;
+    height: 100%;
+   
+}
+.land7>div:nth-child(2){
+    width: 50%;
+    height: 100%; 
+}
+/* LAnd==================7 */
+.land7image2{
+    height: 70%;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.become{
+   
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 13px;
+    color:  rgb(38,126,107);
+    background-color:  rgb(38,126,107);
+    color: white;
+    border: 1px solid  rgb(38,126,107);
+    
+    border-radius: 19px;
+}
+.become:hover{
+    cursor: pointer;
+    background-color: rgb(31, 88, 76);
+}
+.video2{
+    height: 100%;
+    width: 20%;
+}
+.goodnews{
+    text-align: center;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857
+
+
+}
+.cardslider{
+    margin: auto;
+   
+    height: 350px;
+    width: 78%;
+    margin-top: 30px;
+   
+}
+.sliderimage{
+    height: 75%;
+    width: 75%;
+}
+/* LAND===========8             LAND====================8 */
+.land8{
+  
+   
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    
+    margin-top: 40px;
+    display: flex;
+}
+.land8>div:nth-child(1){
+    height: 100%;
+    width: 40%;
+   
+}
+.land8image1{
+    height: 100%;
+    width: 100%;
+}
+.land8b{
+    background-color: rgb(255,243,206);
+}
+.land8b h1{
+   margin-top: 50px;
+   margin-left: 50px;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.land8b p{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+   
+   
+.allbtn2{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+    
+}
+.allbtn2:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+
+/* LAND-===================9   LAND==================9 */
+.land9{
+   
+   
+    height: 250px;
+    width: 70%;
+    margin: auto;
+   
+   
+    display: flex;
+}
+.land9>div:nth-child(1){
+    height: 100%;
+    width: 40%;
+    margin-top: 5px;
+   
+}
+.land9image1{
+    height: 100%;
+    width: 100%;
+}
+.land9b{
+    background-color: rgb(255,243,206);
+}
+.land9b h1{
+   margin-top: 50px;
+   margin-left: 50px;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.land9b p{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+   
+   
+.allbtn2{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+    
+}
+.allbtn2:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+
+   
+   
+   
+    
+   
+   
+   
+   
+ 
+   
+  
+    
+
+
+
+     
+    
+
