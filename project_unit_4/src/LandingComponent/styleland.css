@@ -1,18 +1,18 @@
 .land1{
     height: 600px;
     width: 98%;
-    border: 1px solid black;
+
     margin: auto;
     display: flex;
 }
 .land1>div:nth-child(1){
     width: 60%;
-    border: 1px solid red;
+
     margin-top: 0;
 }
 .land1>div:nth-child(2){
     width: 40%;
-    border: 1px solid red;
+
 }
 .image-1{
     width: 100%;
@@ -115,7 +115,7 @@
     height: 150px;
     width: 98%;
     margin: auto;
-    border: 1px solid red;
+   
    
    
     margin-top: 70px;
@@ -145,12 +145,12 @@
 .land3{
     height: 600px;
     width: 98%;
-    border: 1px solid red;
+   
     margin: auto;
     display: flex;
 }
 .land3 div{
-    border: 1px solid red;
+   
     height: 100%;
     width: 50%;
 }
@@ -224,7 +224,7 @@
     width: 98%;
     background-color: rgb(222,235,233);
     margin: auto;
-    border: 1px solid red
+   
     
 }
 .video{
@@ -249,7 +249,7 @@
     height: 250px;
     width: 98%;
     margin: auto;
-    border: 1px solid black;
+   
 }
 .land4>h3{
     text-align: center;
@@ -284,18 +284,18 @@
 .land5{
     height: 600px;
     width: 98%;
-    border: 1px solid black;
+   
     margin: auto;
     display: flex;
 }
 .land5>div:nth-child(1){
     width: 45%;
-    border: 1px solid red;
+   
     margin-top: 0;
 }
 .land5>div:nth-child(2){
     width: 55%;
-    border: 1px solid red;
+   
 }
 .land5image{
    
@@ -325,6 +325,258 @@
     text-align: center;
     margin-top: 5px;
 }
+/* LAND=================6=================LAND===============6 */
+.land6{
+    height: 600px;
+    width: 98%;
+    margin: auto;
+   
+    display: flex;
+    margin-top: 20px;
+}
+.land6>div:nth-child(1){
+    width: 50%;
+    height: 100%;
+  
+}
+.land6image2{
+   
+    margin-top: 80px;
+}
+.land6image1{
+    height: 100%;
+    
+}
+.land7{
+    height: 600px;
+    width: 98%;
+    margin: auto;
+  
+    display: flex;
+    margin-top: 20px;
+}
+.land7>div:nth-child(1){
+    width: 50%;
+    height: 100%;
+   
+}
+.land7>div:nth-child(2){
+    width: 50%;
+    height: 100%; 
+}
+/* LAnd==================7 */
+.land7image2{
+    height: 70%;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.become{
+   
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 13px;
+    color:  rgb(38,126,107);
+    background-color:  rgb(38,126,107);
+    color: white;
+    border: 1px solid  rgb(38,126,107);
+    
+    border-radius: 19px;
+}
+.become:hover{
+    cursor: pointer;
+    background-color: rgb(31, 88, 76);
+}
+.video2{
+    height: 100%;
+    width: 20%;
+}
+.goodnews{
+    text-align: center;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.2857
+
+
+}
+.cardslider{
+    margin: auto;
+   
+    height: 350px;
+    width: 78%;
+    margin-top: 30px;
+   
+}
+.sliderimage{
+    height: 75%;
+    width: 75%;
+}
+/* LAND===========8             LAND====================8 */
+.land8{
+  
+   
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    
+    margin-top: 40px;
+    display: flex;
+}
+.land8>div:nth-child(1){
+    height: 100%;
+    width: 40%;
+   
+}
+.land8image1{
+    height: 100%;
+    width: 100%;
+}
+.land8b{
+    background-color: rgb(255,243,206);
+}
+.land8b h1{
+   margin-top: 50px;
+   margin-left: 50px;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.land8b p{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+   
+   
+.allbtn2{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+    
+}
+.allbtn2:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+
+/* LAND-===================9   LAND==================9 */
+.land9{
+   
+   
+    height: 250px;
+    width: 70%;
+    margin: auto;
+   
+   
+    display: flex;
+}
+.land9>div:nth-child(1){
+    height: 100%;
+    width: 40%;
+    margin-top: 5px;
+   
+}
+.land9image1{
+    height: 100%;
+    width: 100%;
+}
+.land9b{
+    background-color: rgb(255,243,206);
+}
+.land9b h1{
+   margin-top: 50px;
+   margin-left: 50px;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.land9b p{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+   
+   
+.allbtn2{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    background-position: left;
+    transition: background-position 0.5s;
+   
+   
+    font-size: 16px;
+    
+   
+    letter-spacing: 1px;
+    border-radius: 19px;
+    
+    cursor: pointer;
+    color:  rgb(38,126,107);
+ 
+   
+    
+    border-radius: 19px;
+   
+    border: 1px solid  rgb(38,126,107);
+    
+}
+.allbtn2:hover{
+   
+    background-color: rgb(49, 129, 124);
+    background-position: right;
+    color: white;
+}
+
+   
+   
+   
+    
+   
+   
+   
+   
+ 
+   
+  
+    
+
 
 
      

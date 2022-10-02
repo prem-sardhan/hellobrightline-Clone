@@ -26,7 +26,7 @@ import {
           <Stack align={'center'}>
             <Heading fontSize={'4xl'}>Login in to your account</Heading>
             <Text fontSize={'lg'} color={'gray.600'}>
-            Welcome to Brightline <Link to="/" color={'blue.400'}>features</Link> ✌️
+            Welcome to Brightline <Link to="/" color={'blue.400'}>Know More</Link> ✌️
             </Text>
           </Stack>
           <Box

@@ -1,6 +1,6 @@
 .div-1{
     
-    border: 1px solid red;
+   
     
     width: 98%;
     height: 150px;
@@ -10,12 +10,11 @@
     background-color: rgb(255,216,93);
 }
 .div-1>div:nth-child(1){
-    border: 1px solid rgb(55, 0, 255);
+   
     height: 100%;
     width: 70%;
 }
-.div-1>div:nth-child(2){
-    border: 1px solid rgb(55, 0, 255);
+.div-1>div:nth-child(2){ 
     height: 100%;
     width: 30%;
 }
@@ -26,14 +25,14 @@
 
 }
 .div-1a>div{
-    border: 1px solid black;
+   
     margin: auto;
     height: 100%;
     width: 20%;
 
 }
 .div-1b>div{
-    border: 1px solid black;
+   
     height: 100%;
     width: 80%;
     margin: auto;
@@ -89,7 +88,7 @@
 .topdiv{
     width: 98%;
     height: 50px;
-    border: 1px solid black;
+   
 }
 /* login button------------------------------------- */
 .loginbtn:hover{
